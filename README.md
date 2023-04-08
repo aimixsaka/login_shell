@@ -2,6 +2,8 @@
 ### How to use
 1. download or copy this script. (here name it login.sh)
 `wget https://raw.githubusercontent.com/yfaimisaka/login_shell/main/login.sh`
+or clone this repo
+`git clone https://github.com/yfaimisaka/login_shell.git`
 2. run `chmod +x` on your terminal
 3. use `./login.sh -h` for help
 4. use `./login.sh -U "Bxxxxx" -P "xxxx" -I "NJUPT"` or `./login.sh --username "xxx" --password "xxx" --isp "xxx"` to connect.
