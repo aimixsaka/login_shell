@@ -126,7 +126,7 @@ curl -s --head --connect-timeout 3 https://www.baidu.com | head -n 1 | grep "HTT
 SUCCESS="$?"
 CURRENT_ISP=`nmcli -t -f ACTIVE,SSID dev wifi | grep yes | cut -d: -f2`
 if [ "$SUCCESS" -eq "0" ] && [ $ISP = $CURRENT_ISP ]; then
-  warn "You have already connected to internet"
+  warn "You have already connected to $ISP"
   exit 0
 fi
 
