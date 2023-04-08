@@ -83,9 +83,10 @@ usage() {
   echo "Usage: ./login -U \"username\" -P \"password\" -I \"isp\""
   echo "Login to NJUPT internet"
   echo
-  echo "  -I        which isp to connect(NJUPT,NJUPT-CMCC,NJUPT-CHINANET)"
-  echo "  -U        login username, usually your student id"
-  echo "  -P        login password"
+  echo "  -h,--help             output help message"
+  echo "  -I,--isp              which isp to connect(NJUPT,NJUPT-CMCC,NJUPT-CHINANET)"
+  echo "  -U,--username         login username, usually your student id"
+  echo "  -P,--password         login password"
 }
 
 login() {
