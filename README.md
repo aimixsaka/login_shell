@@ -6,7 +6,7 @@ or clone this repo
 `git clone https://github.com/yfaimisaka/login_shell.git`
 2. run `chmod +x ./login.sh` on your terminal
 3. use `./login.sh -h` for help
-4. use `./login.sh -U "Bxxxxx" -P "xxxx" -I "NJUPT"` or `./login.sh --username "xxx" --password "xxx" --isp "xxx"` to connect.
+4. use `./login.sh -U "Bxxxxx" -P "xxxx" -I "NJUPT-xxx"` or `./login.sh --username "xxx" --password "xxx" --isp "xxx"` to connect.
 5. over
 
 ### Tips
