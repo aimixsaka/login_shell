@@ -55,7 +55,7 @@ preset() {
   WLANACNAME="XL-BRAS-SR8806-X"
   
   # get pc ip
-  IP=$(ip addr | grep 'inet ' | grep -v '127.0.0.1' | awk '{print $2}' | cut -d'/' -f1)
+  IP="$(nmcli connection show NJUPT-CMCC | grep "IP4.ADDRESS" | awk '{print $2}' | cut -d/ -f 1)"
   
   # Deprecated(use command parm instead)
   # get operator connected
